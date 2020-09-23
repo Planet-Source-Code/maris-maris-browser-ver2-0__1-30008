@@ -1,0 +1,660 @@
+[Root]
+Most Recent Package=Maris Setup
+
+[Package|Maris Browse|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\maris
+
+[Package|Maris Browse|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Maris Browse|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Maris Browse|Files Found]
+
+[Package|Maris Browse|Files Released]
+
+[Package|Maris Browse|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX=
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=
+
+[Package|Maris Browse|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=
+
+[Package|Maris Browse|Files Added]
+
+[Package|Maris Browse|Files Removed]
+c:\windows\system\msrdo20.dll=
+c:\windows\system\msrdc20.ocx=
+c:\windows\system\rdocurs.dll=
+
+[Package|Maris Browse|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\marisbrowse.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDC20.OCX=No
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=No
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=No
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MCI32.OCX=Yes
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=Yes
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Maris Browse|Configure Registry Files]
+Applicable=No
+
+[Package|Maris Browse|Configure Remote Servers]
+Applicable=No
+
+[Package|Maris Browse|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\marisbrowse.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Maris Browse|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\marisbrowse.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Maris Browse|Distribution]
+Type=single
+Size=
+Title=Maris Browser Ver1.0
+
+[Package|Maris Browse|Package]
+PackageFolder=C:\Program Files\maris
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=C:\Program Files\maris\setup.exe
+File2=C:\Program Files\maris\Setup.Lst
+File3=C:\Program Files\maris\marisbrowse.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Maris Browse|IconGroups]
+Group0=Maris Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Maris Browse|Maris Browser]
+Icon1=marisbrowse.exe
+Title1=Maris Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Maris Browser|Maris Browser Ver:1.0]
+Icon1=marisbrowse.exe
+Title1=Maris Browser Ver:1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Maris Browser|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Maris
+
+[Package|Maris Browser|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Maris Browser|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Maris Browser|Files Found]
+
+[Package|Maris Browser|Files Released]
+
+[Package|Maris Browser|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX=
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=
+C:\WINDOWS\SYSTEM\VIDTC3.OCX=
+C:\WINDOWS\SYSTEM\swflash.ocx=
+
+[Package|Maris Browser|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=
+
+[Package|Maris Browser|Files Added]
+C:\maris\Marisbro.zip=
+C:\maris\Readme.txt=
+
+[Package|Maris Browser|Files Removed]
+c:\windows\system\msrdo20.dll=
+c:\windows\system\msrdc20.ocx=
+c:\windows\system\rdocurs.dll=
+c:\maris\marisbro.zip=
+
+[Package|Maris Browser|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDC20.OCX=No
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=No
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=No
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MCI32.OCX=Yes
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=Yes
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\maris\Marisbrowse.exe=Yes
+C:\WINDOWS\SYSTEM\swflash.ocx=Yes
+C:\WINDOWS\SYSTEM\VIDTC3.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=Yes
+C:\maris\Marisbro.zip=No
+C:\maris\Readme.txt=Yes
+
+[Package|Maris Browser|Configure Registry Files]
+Applicable=No
+
+[Package|Maris Browser|Configure Remote Servers]
+Applicable=No
+
+[Package|Maris Browser|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\marisbrowse.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\maris\Marisbrowse.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\swflash.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VIDTC3.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\maris\Readme.txt=$(AppPath)
+
+[Package|Maris Browser|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\marisbrowse.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\maris\Marisbrowse.exe=No
+C:\maris\Readme.txt=No
+
+[Package|Maris Browser|Distribution]
+Type=single
+Size=1.44 MB
+Title=Maris Browser Ver1.0
+
+[Package|Maris Browser|Package]
+PackageFolder=C:\Program Files\maris
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=C:\Program Files\maris\setup.exe
+File2=C:\Program Files\maris\Setup.Lst
+File3=C:\Program Files\maris\marisbrowse.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Maris Browser|IconGroups]
+Group0=Maris Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Maris Browser|Maris Browser]
+Icon1=marisbrowse.exe
+Title1=Maris Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+
+[Package|Depency File|Maris Browser Ver:1.0]
+Icon1=marisbrowse.exe
+Title1=Maris Browser Ver:1.0
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Depency File|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=C:\Program Files\Maris
+
+[Package|Depency File|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Depency File|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Depency File|Files Found]
+
+[Package|Depency File|Files Released]
+Marisbro.zip=
+
+[Package|Depency File|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX=
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=
+C:\WINDOWS\SYSTEM\VIDTC3.OCX=
+C:\WINDOWS\SYSTEM\swflash.ocx=
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\MSICDROM.OCX=
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\MSISYS.OCX=
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\TXTVIEW.OCX=
+C:\WINDOWS\SYSTEM\MSHTML.TLB=
+C:\WINDOWS\SYSTEM\WININET.DLL=
+
+[Package|Depency File|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\COMCT332.OCX=
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=
+
+[Package|Depency File|Files Added]
+marisbro.zip=
+c:\maris\readme.txt=
+
+[Package|Depency File|Files Removed]
+c:\windows\system\msrdo20.dll=
+c:\windows\system\msrdc20.ocx=
+c:\windows\system\rdocurs.dll=
+c:\maris\marisbro.zip=
+
+[Package|Depency File|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDC20.OCX=No
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=No
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=No
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=Yes
+C:\WINDOWS\SYSTEM\MCI32.OCX=Yes
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=Yes
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCT332.OCX=Yes
+C:\WINDOWS\SYSTEM\MSADODC.OCX=Yes
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=Yes
+C:\maris\Marisbrowse.exe=Yes
+C:\WINDOWS\SYSTEM\swflash.ocx=Yes
+C:\WINDOWS\SYSTEM\VIDTC3.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=Yes
+C:\maris\Readme.txt=Yes
+C:\WINDOWS\SYSTEM\WININET.DLL=Yes
+C:\WINDOWS\SYSTEM\ODBC32.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO15.DLL=Yes
+C:\WINDOWS\SYSTEM\MSHTML.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\TXTVIEW.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\MSISYS.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\MSICDROM.OCX=Yes
+
+[Package|Depency File|Configure Registry Files]
+Applicable=No
+
+[Package|Depency File|Configure Remote Servers]
+Applicable=No
+
+[Package|Depency File|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\marisbrowse.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSRDC20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCT2.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCHRT20.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMAPI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MCI32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\PICCLP32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\SYSINFO.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMM32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSMASK32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATGRD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSDATLST.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCT332.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSHFLXGD.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MACROMED\FLASH\swflash.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VIntDev98\bin\VIDTC3.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\maris\Marisbrowse.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\swflash.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\VIDTC3.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\maris\Readme.txt=$(AppPath)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ODBC32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO15.DLL=$(CommonFilesSys)\ADO
+C:\WINDOWS\SYSTEM\MSHTML.TLB=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\TXTVIEW.OCX=$(AppPath)
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\MSISYS.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\MSINFO\MSICDROM.OCX=$(AppPath)
+
+[Package|Depency File|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\marisbrowse.exe=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\maris\Marisbrowse.exe=No
+C:\maris\Readme.txt=No
+
+[Package|Depency File|Distribution]
+Type=single
+Size=1.44 MB
+Title=Maris Browser Ver1.0
+
+[Package|Depency File|IconGroups]
+Group0=Maris Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Depency File|Maris Browser]
+Icon1=marisbrowse.exe
+Title1=Maris Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Depency File|DepFile]
+DepCabFile=Marisbrowse.CAB
+DepCabRun=Marisbrowse.INF
+
+[Package|Depency File|Package]
+PackageFolder=C:\Program Files\Maris
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=C:\Program Files\Maris\Marisbrowse.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Maris Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\maris\maris
+
+[Package|Maris Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Maris Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Maris Setup|Files Found]
+
+[Package|Maris Setup|Files Released]
+
+[Package|Maris Setup|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=
+C:\WINDOWS\SYSTEM\msdxm.ocx=
+C:\WINDOWS\SYSTEM\WININET.DLL=
+
+[Package|Maris Setup|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=
+
+[Package|Maris Setup|Files Added]
+
+[Package|Maris Setup|Files Removed]
+c:\windows\system\msrdo20.dll=
+c:\windows\system\rdocurs.dll=
+
+[Package|Maris Setup|Files In Project]
+C:\maris\Marisbrowse.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\WININET.DLL=Yes
+C:\WINDOWS\SYSTEM\msdxm.ocx=Yes
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=Yes
+C:\WINDOWS\SYSTEM\MSRDO20.DLL=No
+C:\WINDOWS\SYSTEM\RDOCURS.DLL=No
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=Yes
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Maris Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Maris Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Maris Setup|Install Locations]
+C:\maris\Marisbrowse.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\msdxm.ocx=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSCDRUN.DLL=$(CommonFiles)\Designer
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO20.TLB=$(WinSysPath)
+C:\WINDOWS\SYSTEM\Tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMCTL32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Maris Setup|Configure Shared Files]
+Applicable=Yes
+C:\maris\Marisbrowse.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+
+[Package|Maris Setup|Distribution]
+Type=single
+Size=
+Title=Maris Browser
+
+[Package|Maris Setup|IconGroups]
+Group0=Maris Browser
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Maris Setup|Maris Browser]
+Icon1=Marisbrowse.exe
+Title1=Maris Browser
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Maris Setup|Package]
+PackageFolder=C:\maris\maris
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98
+ServerSideCab=
+File1=C:\maris\maris\setup.exe
+File2=C:\maris\maris\Setup.Lst
+File3=C:\maris\maris\Marisbrowse.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
